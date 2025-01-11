@@ -10,7 +10,7 @@ const {restrictToLoggedInUserOnly, checkAuth} = require("./middlewares/auth");
 const PORT = 8001;
 
 const app = express();
-connectToMongoDB("mongodb://localhost:27017/URLshortner").then(()=>{
+connectToMongoDB("mongodb://localhost:xxxxx/URLshortner").then(()=>{
     console.log("MongoDB connected Successfully...");
 });
 
